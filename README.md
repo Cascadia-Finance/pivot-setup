@@ -1,7 +1,33 @@
-# pivot-setup
-NT8 Indicator for Pivot Setup
+# NT8 Indicator for the Pivot Setup
 
+This indicaotr identifies Pivot Setups.  It is not enough to observe a pivot - this must be combined with an understanding of key levels and market trends to make a sucessful trade.
 
+I did not create this concept - it was taught to me in the [Algo Day Trader](https://www.algodaytrader.net) trading room.  He did not create it either.
+
+## What is a Pivot Setup?
+
+A Pivot Setup identifies points where a market trend might reverse direction. This setup is used to detect potential reversals from a downward trend to an upward movement or vice versa.
+
+### Criteria for a Long Trade Setup:
+  1. **Establish a Downward Trend**: Successive candles show lower lows.
+  2. **Reversal Indication**: The current candle fails to make a new low.
+  3. **Breakout Confirmation**: The current candle rises above the high of the previous candle.
+
+### Trade Execution:
+  * **Entry Point**: Place an entry order at the high of the previous candle.
+  * **Stop Loss**: Set a stop loss at the low of the previous candle.
+
+### Example:
+In the following image, there are five candles forming lower lows. As the sixth candle opens, the indicator displays a green triangle at the entry price (the high of the fifth candle) and a red triangle at the stop loss price (the low of the fifth candle). As the sixth candle develops, it moves upward, confirming the reversal.
+
+<img width="178" alt="image" src="https://github.com/user-attachments/assets/9a12d594-6ebb-4e76-bd42-471e1fd2a3cb">
+
+# Configuration Options
+
+  * **Larger Wick than Body**: The total wick length of the previous candle must be larger than the body of the candle.
+  * **Directional Wick**: For a long setup, the preivous candle down wick must be longer than the up wick.  For short, vice versa.
+  * **Look Back**: The number of candles to look back at when identifying an up or down trend.
+  * **Play Alert Sound**: If the wav files included in the release are saved to C -> Program Files -> Ninja Trader 8 -> sounds, then an alert will play.  A woman's voice will say "NQ Pivot" or "ES Pivot" depending on which market is triggering the alert.
 
 # Disclaimer
 
