@@ -1,6 +1,20 @@
-# pivot-setup
-NT8 Indicator for Pivot Setup
+# NT8 Indicator for the Pivot Setup
 
+## What is a Pivot Setup?
+
+When the market establishes a trend, at some point it will test a level, then reverse in the opposite direction.  
+
+The criteria for the long trade set up are:
+
+1) Establish a downward trend - lower lows on each candle
+2) Current candle fails to make new low
+3) Current candle rises above the high of the previous candle
+
+Entry: At the high of the previous candle
+Stop loss: At the low of the previous candle
+
+
+<img width="192" alt="image" src="https://github.com/user-attachments/assets/f8ea5698-f306-49a5-8966-720e7f48ab38">
 
 
 # Disclaimer
