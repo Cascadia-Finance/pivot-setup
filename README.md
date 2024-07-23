@@ -31,10 +31,10 @@ In the following image, there are five candles forming lower lows. As the sixth 
 
 # Installation
 
-  1, Download the latest CascadiaPivotSetup zip file from the releases page:  https://github.com/CascadiaFintech/pivot-setup/releases
-  1. If you want the sound alerts, download the PivotAlert.wav files too
-  1. Import the zip file into NT8:  Control Center -> Tools -> Import -> NinjaScript Add On...
-  1. Copy PivotAlert.wav files to C -> Program Files -> Ninja Trader 8 -> sounds
+  1. Download the latest CascadiaPivotSetup zip file from the releases page:  https://github.com/CascadiaFintech/pivot-setup/releases
+  2. If you want the sound alerts, download the PivotAlert.wav files too
+  3. Import the zip file into NT8:  Control Center -> Tools -> Import -> NinjaScript Add On...
+  4. Copy PivotAlert.wav files to C -> Program Files -> Ninja Trader 8 -> sounds
 
 # Disclaimer
 
