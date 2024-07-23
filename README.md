@@ -1,20 +1,25 @@
 # NT8 Indicator for the Pivot Setup
 
+This indicaotr identifies Pivot Setups.  It is not enough to observe a pivot - this must be combined with an understanding of key levels and market trends to make a sucessful trade.
+
 ## What is a Pivot Setup?
 
-When the market establishes a trend, at some point it will test a level, then reverse in the opposite direction.  
+A Pivot Setup identifies points where a market trend might reverse direction. This setup is used to detect potential reversals from a downward trend to an upward movement.
 
-The criteria for the long trade set up are:
+### Criteria for a Long Trade Setup:
+  1. **Establish a Downward Trend**: Successive candles show lower lows.
+  2. **Reversal Indication**: The current candle fails to make a new low.
+  3. **Breakout Confirmation**: The current candle rises above the high of the previous candle.
 
-1) Establish a downward trend - lower lows on each candle
-2) Current candle fails to make new low
-3) Current candle rises above the high of the previous candle
+### Trade Execution:
+  * **Entry Point**: Place an entry order at the high of the previous candle.
+  * **Stop Loss**: Set a stop loss at the low of the previous candle.
 
-Entry: At the high of the previous candle
-Stop loss: At the low of the previous candle
+### Example:
+In the following image, there are five candles forming lower lows. As the sixth candle opens, the indicator displays a green triangle at the entry price (the high of the fifth candle) and a red triangle at the stop loss price (the low of the fifth candle). As the sixth candle develops, it moves upward, confirming the reversal.
 
+<img width="178" alt="image" src="https://github.com/user-attachments/assets/9a12d594-6ebb-4e76-bd42-471e1fd2a3cb">
 
-<img width="192" alt="image" src="https://github.com/user-attachments/assets/f8ea5698-f306-49a5-8966-720e7f48ab38">
 
 
 # Disclaimer
